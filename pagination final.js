@@ -509,7 +509,7 @@
 function makeList() {
     for (i = 0;i< data.length; i++)
     {
-        list.push(data[i].id+" "+data[i].name+" "+data[i].email);
+        list.push(data[i].id+"."+data[i].name+" "+data[i].email);
 
     }
        
